@@ -1,0 +1,40 @@
+.single-blog-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  .blog-info {
+    flex: 1;
+  }
+  
+  .blog-description {
+    flex: 2;
+    padding-left: 20px;
+    border-left: 1px solid #ccc;
+  }
+  
+  .blog-title {
+    font-size: 1.5rem;
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .blog-paragraph {
+    color: #333;
+  }
+  
+  .blog-heading {
+    font-size: 1rem;
+    color: red;
+    margin-bottom: 5px;
+  }
+  
+  .blog-user-id {
+    font-size: 0.8rem;
+    color: #666;
+  }
