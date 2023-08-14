@@ -22,7 +22,7 @@ function Blogs() {
     const handleSubmit  = (e)=>{
         
         e.preventDefault()
-        fetch("http://localhost:8080/blog/add",{
+        fetch("https://backendredwhite-1lym.onrender.com/blog/add",{
             method : "POST",
             headers : {
                 "Content-Type" : "application/json",
@@ -38,7 +38,7 @@ function Blogs() {
         })
     }
     const fetchData = ()=>{
-        fetch("http://localhost:8080/blog",{
+        fetch("https://backendredwhite-1lym.onrender.com/blog",{
             method : "GET",
             headers : {
                 "Content-Type" : "application/json",

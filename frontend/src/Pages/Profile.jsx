@@ -11,7 +11,7 @@ function Profile(props) {
      fetchData()
     },[])
     const fetchData = ()=>{
-        fetch("http://localhost:8080/blog",{
+        fetch("https://backendredwhite-1lym.onrender.com/blog",{
             method : "GET",
             headers : {
                 "Content-Type" : "application/json",
@@ -26,7 +26,7 @@ function Profile(props) {
         })
     }
     const handleDelete = (id)=>{
-        fetch(`http://localhost:8080/blog/${id}`,{
+        fetch(`https://backendredwhite-1lym.onrender.com/blog/${id}`,{
             method : "DELETE",
             headers : {
                 "Content-Type" : "application/json",
@@ -51,7 +51,7 @@ function Profile(props) {
       };
     
       const handleSubmitEdit = (id) => {
-        fetch(`http://localhost:8080/blog/${id}`, {
+        fetch(`https://backendredwhite-1lym.onrender.com/blog/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",

@@ -11,7 +11,7 @@ function Registration() {
     const navigate = useNavigate()
     const handleRegistration=(e)=>{
       e.preventDefault()
-       fetch(`http://localhost:8080/user/register`,{
+       fetch(`https://backendredwhite-1lym.onrender.com/user/register`,{
         method : "POST",
         headers : {
             "Content-Type" : "application/json",

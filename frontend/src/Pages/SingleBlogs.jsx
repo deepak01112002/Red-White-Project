@@ -9,7 +9,7 @@ function SingleBlogs() {
         fetchData(params)
     },[])
     const fetchData = (params)=>{
-        fetch(`http://localhost:8080/blog/${params.id}`,{
+        fetch(`https://backendredwhite-1lym.onrender.com/blog/${params.id}`,{
             method : "GET",
             headers : {
                 "Content-Type" : "application/json",
